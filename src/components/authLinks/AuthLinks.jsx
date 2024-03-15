@@ -32,9 +32,10 @@ const AuthLinks = () => {
           <Link href="/">Homepage</Link>
           <Link href="/">About</Link>
           <Link href="/">Contact</Link>
-          {status === "unauthenticated" ? (
-            <Link href="/login">Login</Link>
-          ) : (
+          {
+            status === "unauthenticated" ? (
+                <Link href="/login">Login</Link>
+            ) : (
             <>
               <Link href="/write">Write</Link>
               <span className={styles.link}>Logout</span>
