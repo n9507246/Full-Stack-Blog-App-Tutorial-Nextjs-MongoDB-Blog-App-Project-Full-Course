@@ -3,8 +3,6 @@ import styles from "./singlePage.module.css";
 import Image from "next/image";
 import Comments from "@/components/comments/Comments";
 
-
-
 const SinglePage = async () => {
 
   return (
@@ -13,7 +11,7 @@ const SinglePage = async () => {
         <div className={styles.textContainer}>
             <h1 className={styles.title}>
                 {/* {data?.title} */}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, facere.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, facere.
             </h1>
           <div className={styles.user}>
             {/* {data?.user?.image && ( */}
@@ -35,9 +33,9 @@ const SinglePage = async () => {
       </div>
       <div className={styles.content}>
          <div className={styles.post}>
-          <div
-            className={styles.description}
-          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptatem quaerat. Id odit, libero quisquam ipsa, atque expedita eius eligendi tenetur error est ad explicabo, nisi architecto vel iste quibusdam autem doloremque nulla tempora sequi veritatis temporibus magnam? Minima corporis mollitia voluptates alias, minus nobis qui odio deleniti sunt fugiat quis natus labore voluptas vel aut, facere sint libero vero! Ut consequuntur officiis libero facere iure soluta dolorum itaque eligendi exercitationem dignissimos optio, placeat veniam obcaecati blanditiis nemo natus, tempore quas quasi corrupti! Quasi illum facilis minima error voluptates magnam fugiat sapiente officiis explicabo suscipit, adipisci et iusto vero iste.</div>
+          <div className={styles.description}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptatem quaerat. Id odit, libero quisquam ipsa, atque expedita eius eligendi tenetur error est ad explicabo, nisi architecto vel iste quibusdam autem doloremque nulla tempora sequi veritatis temporibus magnam? Minima corporis mollitia voluptates alias, minus nobis qui odio deleniti sunt fugiat quis natus labore voluptas vel aut, facere sint libero vero! Ut consequuntur officiis libero facere iure soluta dolorum itaque eligendi exercitationem dignissimos optio, placeat veniam obcaecati blanditiis nemo natus, tempore quas quasi corrupti! Quasi illum facilis minima error voluptates magnam fugiat sapiente officiis explicabo suscipit, adipisci et iusto vero iste.
+          </div>
           <div className={styles.comment}>
             <Comments />
           </div>
