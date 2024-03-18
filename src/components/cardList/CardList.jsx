@@ -1,15 +1,15 @@
 import React from "react"
 import styles from './cardList.module.css'
 import Pagination from "../pagination/Pagination"
+import Card from "../card/Card"
 
 const CardList = () => {
     return(
         <div className={styles.container}>
-            Post card 1
-            Post card 2
-            Post card 3
-            Post card 4
-            Post card 5
+            <h1 className={styles.title}>Recent post</h1>
+            <div className={styles.posts}>
+                <Card/>
+            </div>
             <Pagination/>
         </div>
     )
